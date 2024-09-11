@@ -22,10 +22,10 @@ const logo = {
 };
 
 const contactInfo = {
+    shop: "Найкращий мазагин сучасної техніки",
     address: "м. Сміла, вул. Незалежності, 80",
     phoneNumber: "+380931234567",
     openingHours: "10:00 - 19:00",
-    shop: "Мазагин техніки"
 };
 
 export default function Navbar() {
