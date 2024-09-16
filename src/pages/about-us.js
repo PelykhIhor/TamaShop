@@ -2,17 +2,18 @@ import Layout from '@/components/Layout';
 import React from 'react';
 import Image from 'next/image';
 
-
-export default function AboutUS() {
+export default function AboutUs() {
     return (
         <Layout>
             <section className="bg-white dark:bg-gray-900">
-    <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Про Нас</h2>
-            <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">В нашому інтернет-магазині TamaShop ви знайдете найсучаснішу техніку Apple, яка забезпечить вам високий рівень продуктивності та задоволення від використання.</p>
-        </div>
-        <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+                <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+                    <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+                        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Про TamaShop</h2>
+                        <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
+                            TamaShop - ваш надійний партнер у світі техніки Apple з 2020 року.
+                        </p>
+                    </div>
+                    <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
             <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://i.postimg.cc/SjPs6GTV/wallpaperflare-com-wallpaper-2.jpg" alt="Член команди 1" />
@@ -86,9 +87,37 @@ export default function AboutUS() {
                 </div>
             </div>
         </div>
-    </div>
-</section>
-    
+                    <div className="text-center mt-8">
+                        <h3 className="mb-4 text-2xl tracking-tight font-bold text-gray-900 dark:text-white">Що ми робимо?</h3>
+                        <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+                            TamaShop спеціалізується на продажу найсучаснішої техніки Apple. Ми пропонуємо широкий асортимент продуктів, включаючи iPhone, iPad, MacBook, iMac та аксесуари. Наша команда експертів завжди готова допомогти вам обрати найкращий продукт для ваших потреб.
+                        </p>
+                    </div>
+                    <div className="text-center mt-8">
+                        <h3 className="mb-4 text-2xl tracking-tight font-bold text-gray-900 dark:text-white">Де нас знайти?</h3>
+                        <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+                            Ви можете відвідати наш магазин за адресою: м. Сміла, вул. Незалежності, 80
+                        </p>
+                    </div>
+                    <div className="text-center mt-8">
+                        <h3 className="mb-4 text-2xl tracking-tight font-bold text-gray-900 dark:text-white">Коли ви можете нас відвідати?</h3>
+                        <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+                            Понеділок - П'ятниця: 10:00 - 19:00<br/>
+                            Субота - Неділя: 10:00 - 16:00
+                        </p>
+                    </div>
+                    <div className="text-center mt-8">
+                        <h3 className="mb-4 text-2xl tracking-tight font-bold text-gray-900 dark:text-white">Чому саме ми?</h3>
+                        <ul className="font-light text-gray-500 sm:text-xl dark:text-gray-400 list-disc text-left max-w-2xl mx-auto">
+                            <li>Офіційний партнер Apple з гарантією на всі товари</li>
+                            <li>Швидка доставка по всій Україні</li>
+                            <li>Професійна консультація та підтримка</li>
+                            <li>Програма лояльності для постійних клієнтів</li>
+                            <li>Регулярні акції та спеціальні пропозиції</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </Layout>
     );
 }
