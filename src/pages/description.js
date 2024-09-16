@@ -25,7 +25,7 @@ export default function Description() {
             <section className="py-8 bg-white md:py-16 rounded-3xl shadow dark:bg-gray-900 m-5 antialiased">
                 <div className="max-w-screen-xl px-4 mx-auto 2xl:px-0">
                     <div className="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
-                        <div className="shrink-0 max-w-md lg:max-w-lg mx-auto">
+                        <div className="rounded-lg shrink-0 max-w-md lg:max-w-lg mx-auto">
                             <img className="rounded-lg w-full dark:hidden" src={product.image} alt={product.title} />
                             <img className="rounded-lg w-full hidden dark:block" src={product.image2} alt={product.title} />
                         </div>
