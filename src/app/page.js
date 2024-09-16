@@ -17,8 +17,8 @@ export default function Home() {
             discount: 'Up to 35% off',
             delivery: 'Fast Delivery',
             bestPrice: 'Best Price',
-            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
-            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
+            description: 'Apple iMac 27" - це потужний настільний комп`ютер, який поєднує в собі елегантний дизайн та високу продуктивність. Оснащений процесором M3 Max, цей iMac забезпечує блискавичну швидкість роботи та ефективну обробку даних. 27-дюймовий Retina 5K дисплей вражає своєю чіткістю та яскравістю кольорів, роблячи кожну деталь надзвичайно чіткою. Жорсткий диск об`ємом 1TB надає достатньо місця для зберігання всіх ваших файлів, фотографій та відео. Цей iMac ідеально підходить для професійних дизайнерів, відеомонтажерів та всіх, хто цінує якість та продуктивність.',
+            additionalInfo: 'Наш магазин пропонує унікальну послугу розширеної гарантії всього за 500 грн на рік. Ця послуга включає повне налаштування вашого нового iMac, встановлення необхідного програмного забезпечення та регулярні перевірки для забезпечення оптимальної роботи пристрою. Ми гарантуємо професійну підтримку та швидке вирішення будь-яких технічних проблем, щоб ваш iMac завжди працював на найвищому рівні.'
     
         },
         {
@@ -30,8 +30,8 @@ export default function Home() {
             discount: 'Up to 15% off',
             delivery: 'Best Seller',
             bestPrice: 'Best Price',
-            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
-            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
+            description: 'iPhone 15 Pro Max - це флагманський смартфон від Apple, який встановлює нові стандарти в мобільних технологіях. Виконаний у стильному корпусі з Blue Titanium, цей пристрій не тільки виглядає преміально, але й забезпечує неперевершену міцність. З 256GB вбудованої пам`яті у вас буде достатньо місця для всіх ваших фотографій, відео та додатків. Потужний процесор забезпечує блискавичну швидкість роботи, а передова система камер дозволяє робити професійні знімки в будь-яких умовах. Яскравий OLED дисплей забезпечує неймовірну чіткість та живі кольори.',
+            additionalInfo: 'Купуючи iPhone 15 Pro Max у нашому магазині, ви отримуєте можливість скористатися нашою спеціальною пропозицією - розширеною гарантією за 500 грн на рік. Ця послуга включає повне налаштування вашого нового iPhone, перенесення даних зі старого пристрою, встановлення захисного скла та регулярні перевірки для забезпечення оптимальної роботи. Наші експерти завжди готові допомогти вам з будь-якими питаннями чи проблемами, пов`язаними з вашим новим iPhone.'
         },
         {
             image: 'https://i.postimg.cc/Ls3gXVvs/i-Pad-Pro13.jpg',
@@ -42,8 +42,8 @@ export default function Home() {
             discount: 'Up to 35% off',
             delivery: 'Shipping Today',
             bestPrice: 'Best Price',
-            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
-            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
+            description: 'iPad Pro 13-inch з процесором M4 - це потужний та універсальний планшет, який може замінити повноцінний комп`ютер. Оснащений передовим XDR дисплеєм, цей iPad забезпечує неймовірну якість зображення з високою яскравістю та контрастністю. 512GB вбудованої пам`яті надають достатньо місця для зберігання великої кількості файлів, додатків та медіаконтенту. Потужний процесор M4 забезпечує блискавичну швидкість роботи та можливість виконувати найскладніші завдання, від редагування відео до 3D-моделювання.',
+            additionalInfo: 'Обираючи iPad Pro в нашому магазині, ви можете скористатися нашою спеціальною пропозицією - розширеною гарантією за 500 грн на рік. Ця послуга включає повне налаштування вашого нового iPad, встановлення необхідних додатків, налаштування iCloud та Apple ID, а також регулярні перевірки для забезпечення оптимальної роботи пристрою. Наші фахівці завжди готові надати вам професійну підтримку та допомогти максимально ефективно використовувати всі можливості вашого нового iPad Pro.'
         },
         {
             image: 'https://i.postimg.cc/m2KH6ktT/Play-Station5-Console.jpg',
@@ -54,8 +54,8 @@ export default function Home() {
             discount: 'Up to 10% off',
             delivery: 'Fast Delivery',
             bestPrice: 'Best Price',
-            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
-            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
+            description: 'PlayStation®5 - це новітня ігрова консоль, яка відкриває нову еру в світі відеоігор. З потужним процесором та графічним чіпом, PS5 забезпечує неймовірну якість графіки та плавність геймплею. 1TB вбудованої па`яті дозволяє зберігати велику кількість ігор, а швидкий SSD-накопичувач забезпечує миттєве завантаження. PRO Controller, що входить до комплекту, надає точний контроль та занурює вас у світ гри завдяки тактильному зворотному зв`язку та адаптивним тригерам.',
+            additionalInfo: 'При покупці PlayStation®5 в нашому магазині ви можете скористатися нашою унікальною послугою розширеної гарантії за 500 грн на рік. Ця послуга включає повне налаштування вашої нової консолі, встановлення останніх оновлень, налаштування облікового запису PlayStation Network та підключення до телевізора. Наші експерти також нададуть вам консультації щодо оптимальних налаштувань для максимальної продуктивності та якості зображення. Ми гарантуємо швидке вирішення будь-яких технічних проблем, щоб ви могли насолоджуватися безперебійним ігровим процесом.'
         },
         {
             image: 'https://i.postimg.cc/wT1NVLxW/Microsoft-Xbox-Series-X.jpg',
@@ -65,10 +65,10 @@ export default function Home() {
             rating: 4,
             discount: 'Up to 10% off',
             delivery: 'Best Seller',
-            bestPrice: 'Best Price',
-            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
-            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
-        },
+            bestPrice: 'Best Price'},
+            description: 'Xbox Series X - це найпотужніша ігрова консоль від Microsoft, яка пропонує неперевершений ігровий досвід. З потужним процесором та передовою системою охолодження, ця консоль забезпечує стабільну роботу навіть при найвимогливіших іграх. 1TB швидкого SSD-накопичувача дозволяє зберігати велику бібліотеку ігор та забезпечує миттєве завантаження. Підтримка 4K-роздільної здатності та технології ray tracing створює вражаючі візуальні ефекти, а система Smart Delivery гарантує, що ви завжди граєте в найкращу версію гри.',
+            additionalInfo: 'Купуючи Xbox Series X у нашому магазині, ви отримуєте можливість придбати розширену гарантію всього за 500 грн на рік. Ця послуга включає повне налаштування вашої нової консолі, створення облікового запису Xbox Live, підключення до домашньої мережі та телевізора, а також оптимізацію налаштувань для найкращої продуктивності. Наші фахівці завжди готові надати вам професійну підтримку та допомогти вирішити будь-які технічні питання, щоб ви могли повністю зосередитися на грі.'
+        
         {
             image: 'https://i.postimg.cc/6pRvsKvn/Apple-Mac-Book-PROLaptop.jpg',
             image2: 'https://i.postimg.cc/6pRvsKvn/Apple-Mac-Book-PROLaptop.jpg',
@@ -78,8 +78,8 @@ export default function Home() {
             discount: 'Up to 5% off',
             delivery: 'Fast Delivery',
             bestPrice: 'Best Price',
-            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
-            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
+            description: 'MacBook Pro з чіпом M2 - це потужний та елегантний ноутбук, який поєднує в собі продуктивність професійного рівня та мобільність. Інноваційний чіп M2 забезпечує неймовірну швидкість роботи та енергоефективність, дозволяючи виконувати найскладніші завдання без затримок. Яскравий Retina дисплей з технологією True Tone забезпечує точну передачу кольорів та комфортний перегляд при будь-якому освітленні. Магічна клавіатура з підсвічуванням та великий трекпад Force Touch роблять роботу на MacBook Pro надзвичайно зручною.',
+            additionalInfo: 'Придбавши MacBook Pro в нашому магазині, ви можете скористатися нашою спеціальною пропозицією - розширеною гарантією за 500 грн на рік. Ця послуга включає повне налаштування вашого нового MacBook, встановлення необхідного програмного забезпечення, налаштування iCloud та Apple ID, а також регулярні перевірки для забезпечення оптимальної роботи пристрою. Наші експерти завжди готові надати вам професійну підтримку та допомогти максимально ефективно використовувати всі можливості вашого нового MacBook Pro.'
         },
         {
             image: 'https://i.postimg.cc/05WmDcvM/Apple-Watch-SE.jpg',
@@ -90,8 +90,8 @@ export default function Home() {
             discount: 'Up to 20% off',
             delivery: 'Fast Delivery',
             bestPrice: 'Best Price',
-            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
-            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
+            description: 'Apple Watch SE - це стильний та функціональний смарт-годинник, який поєднує в собі елегантний дизайн та передові технології. З 40мм корпусом та вбудованим GPS-модулем, цей годинник ідеально підходить для відстеження ваших фізичних активностей та навігації. Яскравий Retina дисплей забезпечує чітке відображення інформації навіть при яскравому сонячному світлі. Apple Watch SE дозволяє відстежувати ваш пульс, аналізувати якість сну, отримувати сповіщення з вашого iPhone та навіть здійснювати безконтактні платежі через Apple Pay.',
+            additionalInfo: 'При покупці Apple Watch SE в нашому магазині ви можете скористатися нашою унікальною послугою розширеної гарантії за 500 грн на рік. Ця послуга включає повне налаштування вашого нового смарт-годинника, синхронізацію з iPhone, налаштування повідомлень та фітнес-цілей, а також навчання використанню основних функцій. Наші фахівці завжди готові надати вам професійну підтримку та допомогти максимально ефективно використовувати всі можливості вашого нового Apple Watch SE, щоб він став невід'ємною частиною вашого активного способу життя.'
         },
     ];
     
