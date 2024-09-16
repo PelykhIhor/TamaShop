@@ -3,11 +3,22 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
-const ProductCard = ({ image, image2, title, price, rating, discount, delivery, bestPrice }) => {
+const ProductCard = ({ image, image2, title, price, rating, discount, delivery, bestPrice, description, additionalInfo }) => {
     const router = useRouter();
 
     const handleClick = () => {
-        const productData = { image, image2, title, price, rating, discount, delivery, bestPrice };
+        const productData = { 
+            image, 
+            image2, 
+            title, 
+            price, 
+            rating, 
+            discount, 
+            delivery, 
+            bestPrice,
+            description,
+            additionalInfo
+        };
         localStorage.setItem('selectedProduct', JSON.stringify(productData));
         router.push('/description');
     };
