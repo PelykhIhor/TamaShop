@@ -222,7 +222,7 @@ export default function Payment() {
                                 </div>
                                 <button
                                     type="submit"
-                                    className="w-full mt-4 bg-purple-600 text-white dark:text-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+                                    className="w-full mt-4 bg-purple-600 text-white dark:text-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 hover:bg-purple-400">
                                     Pay Now
                                 </button>
                             </form>
