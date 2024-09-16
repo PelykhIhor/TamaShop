@@ -1,36 +1,29 @@
+// components/card.js
 import React from 'react';
-import PropTypes from 'prop-types';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
-
-
 
 const ProductCard = ({ image, image2, title, price, rating, discount, delivery, bestPrice }) => {
     const router = useRouter();
 
-    const handlePurchaseClick = () => {
-        const data = {
-            image,
-            image2,
-            title,
-            price,
-            rating,
-            discount,
-            delivery,
-            bestPrice
-        };
-    
-        localStorage.setItem('productData', JSON.stringify(data));
+    const handleClick = () => {
+        const productData = { image, image2, title, price, rating, discount, delivery, bestPrice };
+        localStorage.setItem('selectedProduct', JSON.stringify(productData));
+        router.push('/description');
+    };
+
+    const handleBuyClick = (e) => {
+        e.stopPropagation(); // Prevent triggering the card click event
+        const productData = { image, image2, title, price, rating, discount, delivery, bestPrice };
+        localStorage.setItem('productData', JSON.stringify(productData));
         router.push('/payment');
     };
 
     return (
-        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 transform transition duration-500 hover:scale-110">
-            <div onClick={handlePurchaseClick} className="h-56 w-full">
-                <a>
-                    <img className="mx-auto h-full dark:hidden" src={image} alt={title} />
-                    <img className="mx-auto hidden h-full dark:block" src={image2} alt={title} />
-                </a>
+        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 transform transition duration-500 hover:scale-105">
+            <div className="h-56 w-full cursor-pointer" onClick={handleClick}>
+                <img className="mx-auto h-full dark:hidden" src={image} alt={title} />
+                <img className="mx-auto hidden h-full dark:block" src={image2} alt={title} />
             </div>
             <div className="pt-6">
                 {discount && (
@@ -40,9 +33,9 @@ const ProductCard = ({ image, image2, title, price, rating, discount, delivery, 
                         </span>
                     </div>
                 )}
-                <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">
+                <Link href="/description" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white" onClick={handleClick}>
                     {title}
-                </a>
+                </Link>
                 <div className="mt-2 flex items-center gap-2">
                     <div className="flex items-center">
                         {[...Array(5)].map((_, index) => (
@@ -74,7 +67,7 @@ const ProductCard = ({ image, image2, title, price, rating, discount, delivery, 
                 </ul>
                 <div className="mt-4 flex items-center justify-between gap-4">
                     <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">${price}</p>
-                    <button onClick={handlePurchaseClick} type="button" className="inline-flex items-center rounded-lg bg-purple-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800 transform transition duration-500 125">
+                    <button onClick={handleBuyClick} type="button" className="inline-flex items-center rounded-lg bg-purple-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800 transform transition duration-500 hover:scale-105">
                         <svg className="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" strokeLinecap="round" strokeWidth="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
                         </svg>
@@ -84,18 +77,6 @@ const ProductCard = ({ image, image2, title, price, rating, discount, delivery, 
             </div>
         </div>
     );
-};
-
-// PropTypes for plain JavaScript
-ProductCard.propTypes = {
-    img: PropTypes.string.isRequired,
-    img2: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    price: PropTypes.string.isRequired,
-    rating: PropTypes.number.isRequired,
-    discount: PropTypes.string,
-    delivery: PropTypes.string,
-    bestPrice: PropTypes.string,
 };
 
 export default ProductCard;
