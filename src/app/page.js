@@ -16,7 +16,10 @@ export default function Home() {
             rating: 5,
             discount: 'Up to 35% off',
             delivery: 'Fast Delivery',
-            bestPrice: 'Best Price'
+            bestPrice: 'Best Price',
+            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
+            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
+    
         },
         {
             image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/iphone-light.svg',
@@ -26,7 +29,9 @@ export default function Home() {
             rating: 5,
             discount: 'Up to 15% off',
             delivery: 'Best Seller',
-            bestPrice: 'Best Price'
+            bestPrice: 'Best Price',
+            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
+            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
         },
         {
             image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/ipad-light.svg',
@@ -36,7 +41,9 @@ export default function Home() {
             rating: 5,
             discount: 'Up to 35% off',
             delivery: 'Shipping Today',
-            bestPrice: 'Best Price'
+            bestPrice: 'Best Price',
+            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
+            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
         },
         {
             image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/ps5-light.svg',
@@ -46,7 +53,9 @@ export default function Home() {
             rating: 4,
             discount: 'Up to 10% off',
             delivery: 'Fast Delivery',
-            bestPrice: 'Best Price'
+            bestPrice: 'Best Price',
+            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
+            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
         },
         {
             image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/xbox-light.svg',
@@ -56,7 +65,9 @@ export default function Home() {
             rating: 4,
             discount: 'Up to 10% off',
             delivery: 'Best Seller',
-            bestPrice: 'Best Price'
+            bestPrice: 'Best Price',
+            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
+            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
         },
         {
             image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/macbook-pro-light.svg',
@@ -66,7 +77,9 @@ export default function Home() {
             rating: 5,
             discount: 'Up to 5% off',
             delivery: 'Fast Delivery',
-            bestPrice: 'Best Price'
+            bestPrice: 'Best Price',
+            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
+            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
         },
         {
             image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/apple-watch-light.svg',
@@ -76,7 +89,9 @@ export default function Home() {
             rating: 4,
             discount: 'Up to 20% off',
             delivery: 'Fast Delivery',
-            bestPrice: 'Best Price'
+            bestPrice: 'Best Price',
+            description: 'Introducing the iPhone 15 Pro Max in stunning Blue Titanium. This cutting-edge smartphone features a robust 256GB storage capacity, perfect for all your apps, photos, and videos. The Pro Max boasts an advanced camera system, allowing you to capture professional-quality photos and videos. With 5G capabilities and the powerful A17 Bionic chip, this iPhone delivers lightning-fast performance for all your mobile needs.',
+            additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
         },
     ];
     
