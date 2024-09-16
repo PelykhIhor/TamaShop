@@ -9,8 +9,8 @@ export default function Home() {
 
     const products = [
         {
-            image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front.svg',
-            image2: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front-dark.svg',
+            image: 'https://i.postimg.cc/Bv014zTy/Applei-Mac27.jpg',
+            image2: 'https://i.postimg.cc/Bv014zTy/Applei-Mac27.jpg',
             title: 'Apple iMac 27", 1TB HDD, Retina 5K Display, M3 Max',
             price: '1,699',
             rating: 5,
@@ -22,8 +22,8 @@ export default function Home() {
     
         },
         {
-            image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/iphone-light.svg',
-            image2: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/iphone-dark.svg',
+            image: 'https://i.postimg.cc/hj4z7731/Applei-Phone15-Pro-Max.jpg',
+            image2: 'https://i.postimg.cc/hj4z7731/Applei-Phone15-Pro-Max.jpg',
             title: 'Apple iPhone 15 Pro Max, 256GB, Blue Titanium',
             price: '1,199',
             rating: 5,
@@ -34,8 +34,8 @@ export default function Home() {
             additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
         },
         {
-            image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/ipad-light.svg',
-            image2: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/ipad-dark.svg',
+            image: 'https://i.postimg.cc/Ls3gXVvs/i-Pad-Pro13.jpg',
+            image2: 'https://i.postimg.cc/Ls3gXVvs/i-Pad-Pro13.jpg',
             title: 'iPad Pro 13-Inch (M4): XDR Display, 512GB',
             price: '799',
             rating: 5,
@@ -46,8 +46,8 @@ export default function Home() {
             additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
         },
         {
-            image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/ps5-light.svg',
-            image2: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/ps5-dark.svg',
+            image: 'https://i.postimg.cc/m2KH6ktT/Play-Station5-Console.jpg',
+            image2: 'https://i.postimg.cc/m2KH6ktT/Play-Station5-Console.jpg',
             title: 'PlayStation®5 Console – 1TB, PRO Controller',
             price: '499',
             rating: 4,
@@ -58,8 +58,8 @@ export default function Home() {
             additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
         },
         {
-            image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/xbox-light.svg',
-            image2: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/xbox-dark.svg',
+            image: 'https://i.postimg.cc/wT1NVLxW/Microsoft-Xbox-Series-X.jpg',
+            image2: 'https://i.postimg.cc/wT1NVLxW/Microsoft-Xbox-Series-X.jpg',
             title: 'Microsoft Xbox Series X 1TB Gaming Console',
             price: '499',
             rating: 4,
@@ -70,8 +70,8 @@ export default function Home() {
             additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
         },
         {
-            image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/macbook-pro-light.svg',
-            image2: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/macbook-pro-dark.svg',
+            image: 'https://i.postimg.cc/6pRvsKvn/Apple-Mac-Book-PROLaptop.jpg',
+            image2: 'https://i.postimg.cc/6pRvsKvn/Apple-Mac-Book-PROLaptop.jpg',
             title: 'Apple MacBook PRO Laptop with M2 chip',
             price: '2,599',
             rating: 5,
@@ -82,8 +82,8 @@ export default function Home() {
             additionalInfo: 'Includes features like ProMotion technology, Ceramic Shield front cover, and MagSafe for wireless charging and accessories.'
         },
         {
-            image: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/apple-watch-light.svg',
-            image2: 'https://flowbite.s3.amazonaws.com/blocks/e-commerce/apple-watch-dark.svg',
+            image: 'https://i.postimg.cc/05WmDcvM/Apple-Watch-SE.jpg',
+            image2: 'https://i.postimg.cc/05WmDcvM/Apple-Watch-SE.jpg',
             title: 'Apple Watch SE [GPS 40mm], Smartwatch',
             price: '699',
             rating: 4,
