@@ -86,7 +86,7 @@ export default function Payment() {
                             <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
                                 <div className="p-6">
                                     <div className="rounded-lg h-56 w-full">
-                                        <a href="#">
+                                        <a >
                                             <img className="rounded-lg mx-auto h-full dark:hidden" src={image} alt={title} />
                                             <img className="rounded-lg mx-auto hidden h-full dark:block" src={image2} alt={title} />
                                         </a>

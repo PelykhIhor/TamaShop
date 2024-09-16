@@ -32,7 +32,7 @@ export default function Reviews() {
                         </svg>
                         </div>
                         <p className="text-sm font-medium leading-none text-gray-500 dark:text-gray-400">(4.6)</p>
-                        <a href="#" className="text-sm font-medium leading-none text-gray-900 underline hover:no-underline dark:text-white"> 645 відгуків </a>
+                        <a  className="text-sm font-medium leading-none text-gray-900 dark:text-white"> 645 відгуків </a>
                     </div>
                     </div>
 
@@ -47,7 +47,7 @@ export default function Reviews() {
                         <div className="h-1.5 w-80 rounded-full bg-gray-200 dark:bg-gray-700">
                             <div className="h-1.5 rounded-full bg-yellow-300"></div>
                         </div>
-                        <a href="#" className="w-8 shrink-0 text-right text-sm font-medium leading-none text-purple-700 hover:underline dark:text-purple-500 sm:w-auto sm:text-left">239 <span className="hidden sm:inline">відгуків</span></a>
+                        <a  className="w-8 shrink-0 text-right text-sm font-medium leading-none text-purple-700  dark:text-purple-500 sm:w-auto sm:text-left">239 <span className="hidden sm:inline">відгуків</span></a>
                         </div>
 
                         <div className="flex items-center gap-2">
@@ -58,7 +58,7 @@ export default function Reviews() {
                         <div className="h-1.5 w-80 rounded-full bg-gray-200 dark:bg-gray-700">
                             <div className="h-1.5 rounded-full bg-yellow-300"></div>
                         </div>
-                        <a href="#" className="w-8 shrink-0 text-right text-sm font-medium leading-none text-purple-700 hover:underline dark:text-purple-500 sm:w-auto sm:text-left">432 <span className="hidden sm:inline">відгуків</span></a>
+                        <a  className="w-8 shrink-0 text-right text-sm font-medium leading-none text-purple-700  dark:text-purple-500 sm:w-auto sm:text-left">432 <span className="hidden sm:inline">відгуків</span></a>
                         </div>
 
                         <div className="flex items-center gap-2">
@@ -69,7 +69,7 @@ export default function Reviews() {
                         <div className="h-1.5 w-80 rounded-full bg-gray-200 dark:bg-gray-700">
                             <div className="h-1.5 rounded-full bg-yellow-300"></div>
                         </div>
-                        <a href="#" className="w-8 shrink-0 text-right text-sm font-medium leading-none text-purple-700 hover:underline dark:text-purple-500 sm:w-auto sm:text-left">53 <span className="hidden sm:inline">відгуків</span></a>
+                        <a  className="w-8 shrink-0 text-right text-sm font-medium leading-none text-purple-700  dark:text-purple-500 sm:w-auto sm:text-left">53 <span className="hidden sm:inline">відгуків</span></a>
                         </div>
 
                         <div className="flex items-center gap-2">
@@ -80,7 +80,7 @@ export default function Reviews() {
                         <div className="h-1.5 w-80 rounded-full bg-gray-200 dark:bg-gray-700">
                             <div className="h-1.5 rounded-full bg-yellow-300"></div>
                         </div>
-                        <a href="#" className="w-8 shrink-0 text-right text-sm font-medium leading-none text-purple-700 hover:underline dark:text-purple-500 sm:w-auto sm:text-left">32 <span className="hidden sm:inline">відгуків</span></a>
+                        <a  className="w-8 shrink-0 text-right text-sm font-medium leading-none text-purple-700  dark:text-purple-500 sm:w-auto sm:text-left">32 <span className="hidden sm:inline">відгуків</span></a>
                         </div>
 
                         <div className="flex items-center gap-2">
@@ -91,7 +91,7 @@ export default function Reviews() {
                         <div className="h-1.5 w-80 rounded-full bg-gray-200 dark:bg-gray-700">
                             <div className="h-1.5 rounded-full bg-yellow-300"></div>
                         </div>
-                        <a href="#" className="w-8 shrink-0 text-right text-sm font-medium leading-none text-purple-700 hover:underline dark:text-purple-500 sm:w-auto sm:text-left">13 <span className="hidden sm:inline">відгуків</span></a>
+                        <a  className="w-8 shrink-0 text-right text-sm font-medium leading-none text-purple-700  dark:text-purple-500 sm:w-auto sm:text-left">13 <span className="hidden sm:inline">відгуків</span></a>
                         </div>
                     </div>
                     </div>

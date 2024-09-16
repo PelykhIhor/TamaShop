@@ -1,9 +1,12 @@
 "use client"
 import Image from 'next/image';
+
+
 import Layout from "@/components/Layout";
 import ProductCard from '../components/card';
 
 export default function Home() {
+
     const products = [
         {
             image: 'https://i.postimg.cc/Bv014zTy/Applei-Mac27.jpg',
@@ -96,26 +99,6 @@ export default function Home() {
         <Layout>
             <section className="bg-gray-50 py-8 antialiased rounded-3xl m-5 dark:bg-gray-900 md:py-12">
                 <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
-                    <div className="text-center mb-8">
-                        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Ласкаво просимо до TamaShop</h1>
-                        <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-                            Ваш надійний партнер у світі техніки Apple з 2020 року
-                        </p>
-                        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-                            <div className="bg-white p-4 rounded-lg shadow dark:bg-gray-800">
-                                <h2 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">Що ми робимо?</h2>
-                                <p className="text-gray-600 dark:text-gray-300">Продаємо найновішу техніку Apple та надаємо експертні консультації</p>
-                            </div>
-                            <div className="bg-white p-4 rounded-lg shadow dark:bg-gray-800">
-                                <h2 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">Де нас знайти?</h2>
-                                <p className="text-gray-600 dark:text-gray-300">м. Сміла, вул. Незалежності, 80</p>
-                            </div>
-                            <div className="bg-white p-4 rounded-lg shadow dark:bg-gray-800">
-                                <h2 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">Чому ми?</h2>
-                                <p className="text-gray-600 dark:text-gray-300">Офіційна гарантія, швидка доставка, професійна підтримка</p>
-                            </div>
-                        </div>
-                    </div>
                     <div className="mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-4">
                         {products.map((product, index) => (
                             <ProductCard 

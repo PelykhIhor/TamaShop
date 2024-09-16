@@ -29,7 +29,7 @@ const ReviewBar = React.memo(({ stars, count, total }) => {
           style={{ width: `${percentage}%` }} 
         />
       </div>
-      <span className="text-sm font-medium text-primary-700 dark:text-primary-500">
+      <span className="text-sm font-medium text-purple-700 dark:text-purple-500">
         {count}
       </span>
     </div>
@@ -46,7 +46,7 @@ const Review = React.memo(({ rating, author, date, verified, content, helpfulYes
       </div>
       {verified && (
         <div className="inline-flex items-center gap-1">
-          <CheckCircle className="h-5 w-5 text-primary-700 dark:text-primary-500" />
+          <CheckCircle className="h-5 w-5 text-purple-700 dark:text-purple-500" />
           <p className="text-sm font-medium text-gray-900 dark:text-white">Перевірена покупка</p>
         </div>
       )}
@@ -61,7 +61,7 @@ const Review = React.memo(({ rating, author, date, verified, content, helpfulYes
               id={`helpful-yes-${author}`} 
               type="radio" 
               name={`helpful-${author}`} 
-              className="h-4 w-4 border-gray-300 bg-gray-100 text-primary-600 focus:ring-2 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600" 
+              className="h-4 w-4 border-gray-300 bg-gray-100 text-purple-600 focus:ring-2 focus:ring-purple-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-purple-600" 
             />
             <label htmlFor={`helpful-yes-${author}`} className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Так: {helpfulYes}</label>
           </div>
@@ -70,7 +70,7 @@ const Review = React.memo(({ rating, author, date, verified, content, helpfulYes
               id={`helpful-no-${author}`} 
               type="radio" 
               name={`helpful-${author}`} 
-              className="h-4 w-4 border-gray-300 bg-gray-100 text-primary-600 focus:ring-2 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600" 
+              className="h-4 w-4 border-gray-300 bg-gray-100 text-purple-600 focus:ring-2 focus:ring-purple-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-purple-600" 
             />
             <label htmlFor={`helpful-no-${author}`} className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ні: {helpfulNo}</label>
           </div>

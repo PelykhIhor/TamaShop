@@ -5,6 +5,7 @@ import Image from "next/image";
 const navItems = [
     { name: "Головна", href: "/" },
     { name: "Про нас", href: "/about-us" },
+    { name: "Контакти", href: "/contacts" },
     { name: "Відгуки", href: "/reviews" },
     { name: "Переваги", href: "/faq#benefits" },
     { name: "Оплата", href: "/faq#payment" },

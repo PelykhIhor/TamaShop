@@ -57,7 +57,7 @@ export default function Description() {
                                     <p className="text-sm font-medium leading-none text-gray-500 dark:text-gray-400">
                                         ({product.rating}.0)
                                     </p>
-                                    <a href="#" className="text-sm font-medium leading-none text-gray-900 underline hover:no-underline dark:text-white">
+                                    <a  className="text-sm font-medium leading-none text-gray-900 underline hover:no-underline dark:text-white">
                                         {product.rating * 91} Reviews
                                     </a>
                                 </div>
