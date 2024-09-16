@@ -74,7 +74,7 @@ export default function Payment() {
         e.preventDefault();
         const selectedWarranty = warrantyOptions.find(option => option.years === formData.warranty);
         const totalPrice = Number(price) + selectedWarranty.price;
-        alert(`Payment form submitted. Total price: $${totalPrice}`);
+        alert(`Payment form submitted. Total price: ₴${totalPrice}`);
     };
 
     return (
@@ -106,7 +106,7 @@ export default function Payment() {
                                             ))}
                                             <span className="ml-2 text-gray-900 dark:text-white">{rating}.0 ({rating * 91})</span>
                                         </div>
-                                        <div className="text-3xl font-bold text-gray-900 dark:text-white">${price}</div>
+                                        <div className="text-3xl font-bold text-gray-900 dark:text-white">₴{price}</div>
                                     </div>
                                 </div>
                             </div>
