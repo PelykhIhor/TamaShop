@@ -75,7 +75,7 @@ export default function Payment() {
                         <div className="w-full lg:w-1/2 transform transition duration-500 hover:scale-110">
                             <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
                                 <div className="p-6">
-                                    <div className="h-56 w-full">
+                                    <div className="rounded-lg h-56 w-full">
                                         <a href="#">
                                             <img className="rounded-lg mx-auto h-full dark:hidden" src={image} alt={title} />
                                             <img className="rounded-lg mx-auto hidden h-full dark:block" src={image2} alt={title} />
