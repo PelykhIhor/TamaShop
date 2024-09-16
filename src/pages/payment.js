@@ -12,10 +12,11 @@ export default function Payment() {
         country: '',
         city: '',
         zipCode: '',
-        warranty: '1', // Default to 1 year
+        warranty: '0', // Default to 1 year
     });
 
     const warrantyOptions = [
+        { years: '0', price: 0 },
         { years: '1', price: 500 },
         { years: '2', price: 950 },
         { years: '3', price: 1400 },
