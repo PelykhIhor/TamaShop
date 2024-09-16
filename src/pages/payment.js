@@ -77,8 +77,8 @@ export default function Payment() {
                                 <div className="p-6">
                                     <div className="h-56 w-full">
                                         <a href="#">
-                                            <img className="mx-auto h-full dark:hidden" src={image} alt={title} />
-                                            <img className="mx-auto hidden h-full dark:block" src={image2} alt={title} />
+                                            <img className="rounded-lg mx-auto h-full dark:hidden" src={image} alt={title} />
+                                            <img className="rounded-lg mx-auto hidden h-full dark:block" src={image2} alt={title} />
                                         </a>
                                     </div>
                                     <div className="mt-4">
