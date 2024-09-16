@@ -33,8 +33,8 @@ const ProductCard = ({ image, image2, title, price, rating, discount, delivery, 
     return (
         <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 transform transition duration-500 hover:scale-105">
             <div className="h-56 w-full cursor-pointer" onClick={handleClick}>
-                <img className="mx-auto h-full dark:hidden" src={image} alt={title} />
-                <img className="mx-auto hidden h-full dark:block" src={image2} alt={title} />
+                <img className="rounded-lg mx-auto h-full dark:hidden" src={image} alt={title} />
+                <img className="rounded-lg mx-auto hidden h-full dark:block" src={image2} alt={title} />
             </div>
             <div className="pt-6">
                 {discount && (
