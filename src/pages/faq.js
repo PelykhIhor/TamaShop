@@ -1,7 +1,5 @@
 import Layout from '@/components/Layout';
 import React from 'react';
-import Image from 'next/image';
-
 
 const faqData = [
     {
@@ -24,16 +22,14 @@ const faqData = [
 export default function FAQ() {
     return (
         <Layout>
-            <section className="bg-white dark:bg-gray-900 m-5 rounded-3xl shadow">
-                <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-                    <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                        Часті запитання
-                    </h2>
-                    <div className="grid pt-8 text-left border-t border-gray-200 dark:border-gray-700 md:gap-16 md:grid-cols-1">
-                        {faqData.map((faq, index) => (
-                            <FAQItem key={index} id={faq.id} question={faq.question} answer={faq.answer} />
-                        ))}
-                    </div>
+            <section className="py-16 px-4 mx-auto max-w-7xl">
+                <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white text-center mb-12">
+                    Часті запитання
+                </h2>
+                <div className="space-y-8">
+                    {faqData.map((faq) => (
+                        <FAQItem key={faq.id} id={faq.id} question={faq.question} answer={faq.answer} />
+                    ))}
                 </div>
             </section>
         </Layout>
@@ -42,36 +38,18 @@ export default function FAQ() {
 
 function FAQItem({ id, question, answer }) {
     return (
-        <div id={id} className="mb-10">
-            <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                <Icon />
-                {question}
-            </h3>
-            <p className="text-gray-500 dark:text-gray-400">
+        <div id={id} className="p-4 border border-gray-300 rounded-lg shadow transition-all">
+            <button className="flex justify-between w-full text-left">
+                <h3 className="text-xl font-medium text-gray-900 dark:text-white">{question}</h3>
+                <svg className="w-6 h-6 text-gray-500 dark:text-gray-400" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 12h12m-6-6v12" />
+                </svg>
+            </button>
+            <div className="mt-2 text-gray-500 dark:text-gray-400">
                 {answer.split('\n').map((line, index) => (
-                    <span key={index}>
-                        {line}
-                        <br />
-                    </span>
+                    <p key={index} className="leading-relaxed">{line}</p>
                 ))}
-            </p>
+            </div>
         </div>
-    );
-}
-
-function Icon() {
-    return (
-        <svg
-            className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-        >
-            <path
-                fillRule="evenodd"
-                d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                clipRule="evenodd"
-            />
-        </svg>
     );
 }
