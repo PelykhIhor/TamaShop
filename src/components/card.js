@@ -27,7 +27,7 @@ const ProductCard = ({ image, image2, title, price, rating, discount, delivery, 
     return (
         <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 transform transition duration-500 hover:scale-110">
             <div onClick={handlePurchaseClick} className="h-56 w-full">
-                <a href="#">
+                <a>
                     <img className="mx-auto h-full dark:hidden" src={image} alt={title} />
                     <img className="mx-auto hidden h-full dark:block" src={image2} alt={title} />
                 </a>
