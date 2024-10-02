@@ -9,8 +9,8 @@ export default function Home() {
 
     const products = [
         {
-            image: 'https://i.postimg.cc/Bv014zTy/Applei-Mac27.jpg',
-            image2: 'https://i.postimg.cc/Bv014zTy/Applei-Mac27.jpg',
+            image: 'https://ireland.apollo.olxcdn.com/v1/files/yaxvarg0ucwa3-UA/image;s=1000x700',
+            image2: 'https://ireland.apollo.olxcdn.com/v1/files/yaxvarg0ucwa3-UA/image;s=1000x700',
             title: 'Apple iMac 27", 1TB HDD, Retina 5K Display, M3 Max',
             price: '69999',
             rating: 5,
