@@ -22,8 +22,8 @@ export default function Home() {
     
         },
         {
-            image: 'https://i.postimg.cc/hj4z7731/Applei-Phone15-Pro-Max.jpg',
-            image2: 'https://i.postimg.cc/hj4z7731/Applei-Phone15-Pro-Max.jpg',
+            image: 'https://ireland.apollo.olxcdn.com/v1/files/sz6qw1sq6pfq1-UA/image;s=1000x700',
+            image2: 'https://ireland.apollo.olxcdn.com/v1/files/sz6qw1sq6pfq1-UA/image;s=1000x700',
             title: 'Apple iPhone 15 Pro Max, 256GB, Blue Titanium',
             price: '49999',
             rating: 5,
